@@ -1,0 +1,4 @@
+document.addEventListener("DOMContentLoaded",function(){
+  var b=document.getElementById("menuToggle"),s=document.getElementById("sidebar");
+  if(b&&s){b.addEventListener("click",function(){s.classList.toggle("open");});}
+});
